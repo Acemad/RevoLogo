@@ -1,0 +1,502 @@
+@charset "utf-8";
+
+html, body
+{
+	height:100%;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-image:url(gplaypattern.png);
+	background-repeat:repeat;
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.info-page
+{
+	min-height:100vh;
+	background-color:#FFF;
+}
+
+.footer-container
+{
+	background-color:#FFF;
+}
+
+#logo
+{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.page-header
+{	
+	margin-left:60px;
+	margin-right:60px;
+}
+.page-header h1
+{
+	font-family:inherit;
+	color:#888;	
+}
+.mark
+{
+	height:280px;
+	background-color:#FFF;
+	margin-bottom:0px;
+}
+
+.mark h1
+{
+	font-family:inherit;
+	font-size:52px;
+	color:#888;
+	width:100%;
+	line-height:1.25;
+	margin-top:-20px;
+}
+.mark p
+{
+	margin-top:20px;	
+}
+
+.mark button
+{
+	margin-top:20px;
+}
+.menu li.active a,
+.menu li.active a:hover
+{
+	background-color:#1B64EB;
+}
+
+.menu li a
+{
+	color:#888;
+}
+
+.menu li a:hover
+{
+	background-color:#EBEBEB;
+}
+
+/* Carousel Styles */
+
+#revoslide
+{
+	margin-right:60px;
+	margin-top:0px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+.carousel-indicators 
+{
+	margin-bottom:-10px;
+}
+
+
+.carousel-indicators li
+{
+	border-color:#888;
+}
+
+.carousel-indicators li.active
+{
+	background-color:#888;
+}
+
+.carousel-control.left,
+.carousel-control.right
+{
+	height:50px;
+	margin-top:230px;
+	text-shadow:none;
+	color:#888;
+}
+
+.carousel-control.left
+{
+	margin-left:80px;
+}
+
+.carousel-control.right
+{
+	margin-right:80px;
+}
+
+.carousel-inner img
+{
+	margin:auto;
+}
+
+.host-ad
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+.host-promo
+{
+	text-align:center;
+	margin-bottom:15px;
+}
+
+/* Footer Styles */
+footer
+{
+	background-color:#EEE;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	color:#666;
+	padding:18px 0 18px 0;
+	height:45px;
+}
+
+.wrapper
+{
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin:0 auto 0px;
+}
+
+.push
+{
+	height:0px;
+}
+
+#footer-text
+{
+	line-height:0.55;
+	margin-left:15px;
+	margin-right:15px;
+}
+/* Number styles */
+.number
+{
+	position:relative;
+	height:60px;
+	width:60px;
+	display:table;
+	border-radius:50px;
+	background-color:#1B64EB;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	-webkit-transform: all 0.05s;
+	-moz-transition:all 0.05s;
+	-ms-transition:all 0.05s;
+	-o-transition:all 0.05s;
+	transition:all 0.05s;
+}
+
+.number:hover
+{
+	margin-top:18px;
+	width:65px;
+	height:65px;
+}
+.four,
+.four:hover
+{
+	background-color:#1beb64;
+}
+
+.two,
+.two:hover
+{
+	background-color:#1baadd;
+}
+
+.three,
+.three:hover
+{
+	background-color:#1bddaa;
+}
+.number p
+{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	color:#eee;
+	font-size:26px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.steps-title h1
+{
+	font-family:inherit;
+	font-size:32px;
+	color:#888;
+	padding-left:60px;
+	padding-top:0px;
+}
+
+.steps
+{
+	padding-left:60px;
+	padding-right:60px;
+}
+
+.steps-up
+{
+	border-bottom:none;
+	height:70px;	
+	margin-bottom:20px;
+}
+
+.steps-down
+{
+	border-bottom:solid thin #CCC;
+	padding-top:5%;
+	height:100px;	
+}
+
+.info-step
+{
+	position:absolute;
+	bottom:0px;
+	background-color:#EEE;
+	height:100%;
+	width: 89.5%;;
+	display:none;	
+}
+
+.info-step p
+{
+	margin-top:10px;
+	margin-right:15px;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+
+.benefits
+{
+	margin-left:60px;
+}
+.benefits h1
+{
+	font-family:inherit;
+	font-size:32px;
+	color:#888;
+	padding-bottom:10px;
+}
+
+.last-row
+{
+	margin-top:0px;;
+	margin-bottom:3%;
+}
+
+.benefits ul 
+{
+	list-style-image:url(tick.png);
+	font-size:18px;
+}
+
+.benefits ul li span
+{
+	color:#1E64EB;
+	font-weight:600;
+}
+.promo
+{
+	margin-top:10px;
+}
+.promo p
+{
+	background-color:#FFDA00;
+	font-size:18px;
+	padding:5px 0px 8px 75px;
+	color:#444;
+	width:40%;
+	margin-bottom:0px;
+}
+
+.promo-2
+{
+	margin-top:0px;
+	margin-left:40%;
+}
+.promo-2 p
+{
+	background-color:#444;
+	font-size:18px;
+	padding:5px 75px 8px 75px;
+	color:#fff;
+	width:100%;
+	text-align:right;
+}
+
+.btns
+{
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+.btns h1
+{
+	font-family:inherit;
+	font-size:32px;
+	color:#888;
+	margin-left:75px;
+}
+
+.btn-con
+{
+	margin-left:20%;
+	width:150px;
+	background-color:#1baadd;
+}
+
+.btn-port
+{
+	margin-left:20%;
+	width:150px;
+	background-color:#1baadd;
+}
+
+.btn-con:hover,
+.btn-port:hover
+{
+	background-color:#1897C4;
+}
+
+.btn-3
+{
+	margin-top:100px;
+	margin-right:75px;
+}
+
+.btng label
+{
+	margin-left:5px;
+	font-size:18px;
+	font-weight:normal;
+}
+
+#paypal-how img
+{
+	margin-left:125px;
+	margin-top:20px;
+}
+
+
+/* who.html ******************************************************************/
+.about
+{
+	margin-top:20px;
+	margin-left:145px;
+}
+.about-logo
+{
+	margin-left:60px;
+}
+.about p
+{
+	font-size:16px;
+}
+/* Concepts.html *************************************************************/
+
+.pages
+{
+	text-align:center;
+	margin-top:3%;
+}
+
+.concepts
+{
+	margin-left:60px;
+	margin-right:60px;
+}
+
+/* Designed.html ************************************************************/
+.designed
+{
+	margin-left:60px;
+	margin-right:60px;	
+}
+
+.d-logo
+{
+	margin-bottom:20px;
+}
+
+.d-logo .media-body
+{
+	margin-top:123px;
+	font-family:inherit;
+	border-left:solid thin #EBEBEB;
+	padding-left:20px;
+	font-size:16px;
+}
+
+.d-logo .media-body h3
+{
+	font-family:inherit;
+}
+
+/* How.html *******************************************************************/
+.how-steps li.active a,
+.how-steps li.active a:hover
+{
+	background-color:#1Eaadd;
+}
+.how-steps li a
+{
+	color:#888;
+}
+
+#step-1-info h3, #step-2-info h3,
+#step-3-info h3, #step-4-info h3
+{
+	font-family:inherit;
+	color:#888;
+}
+
+#step-1-info , #step-2-info ,
+#step-3-info , #step-4-info 
+{
+	font-size:16px;
+	padding-top:15px;
+	padding-left:30px;	
+	border-left:solid thin #EBEBEB;
+}
+.how-contact a
+{
+	border:solid thin #1eaadd;
+	color:#1eaadd;
+}
+
+/* Request.html *************************************************************/
+
+.confirm
+{
+	width:100%;
+	margin-top:22%;
+	margin-left:20%;
+	margin-bottom:20px;
+}
+ul.parsley-error-list
+{
+	list-style-type:none;	
+	padding-left:0px;
+	margin-bottom:0px;
+}
+ul.parsley-error-list li
+{
+	margin-top:5px;
+	line-height:1.55;
+	color:#F00;
+}
+.parsley-message
+{
+	padding-left:0px;
+}
+.paypal-logo
+{
+	border-top: thin solid #eee;
+    margin-top: 90px;
+    padding-top: 30px;
+}
